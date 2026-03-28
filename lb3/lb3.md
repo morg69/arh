@@ -15,11 +15,7 @@
 
 ## 2. Создание и анализ индексов
 ```py
-CREATE TABLE products (
-    id SERIAL PRIMARY KEY,
-    name VARCHAR(100),
-    created_at DATE
-)
+CREATE TABLE products (id SERIAL PRIMARY KEY, name VARCHAR(100), created_at DATE)
 ```
 - Выполнение поиска дорогих товаро
 
